@@ -22,16 +22,6 @@ export class CatsService {
     }
   }
 
-  // async updateUser(params: {
-  //   where: Prisma.CatWhereUniqueInput;
-  //   data: Prisma.CatWhereUniqueInput;
-  // }): Promise<Cat> {
-  //   const { where, data } = params;
-  //   return this.prisma.cat.update({
-  //     data,
-  //     where,
-  //   });
-  // }
   async update(params: {
     where: Prisma.CatWhereUniqueInput;
     data: Prisma.CatUpdateInput;

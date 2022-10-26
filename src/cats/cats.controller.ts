@@ -17,7 +17,7 @@ export class CatsController {
   @Get()
   findAll() {
     return this.catsService.findAll();
-  }
+  } 
 
   @Get(':id')
   findOne(@Param('id') id: string) {
